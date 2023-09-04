@@ -1,0 +1,30 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #333;
+  color: #fff;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form-row{
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.btn{
+  background: #dadada;
+  border: 2px solid #faf;
+  color: #333;
+  padding:0.25rem 0.5rem ;
+}
